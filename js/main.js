@@ -17,10 +17,10 @@ setTimeout(function() {
 window.addEventListener("keyup", enterKey);
 
 console.log(
-  "%cYou hacked my password!😠",
+  "%cIt's not that easy!😠",
   "color: #04ff00; font-weight: bold; font-size: 24px;"
 );
-console.log("%cPassword: '" + password + "' - I wonder what it does?🤔", "color: grey");
+console.log("%cHint: _a_______a____a.🤔", "color: grey");
 
 //init
 textarea.value = "";
@@ -36,6 +36,9 @@ function enterKey(e) {
     command.innerHTML = et.repeat(w);
     if (textarea.value === password) {
       pwd = true;
+      if(pwd == true){
+        addLine("Hacker hai bhai hacker!!!", "color2", 80);
+      }
     }
     if (pwd && e.keyCode == 13) {
       loopLines(secret, "color2 margin", 120);
@@ -55,7 +58,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("visitor@fkcodes.com:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("visitor@rajveerkhanduja.com:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -88,12 +91,8 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
-    case "video":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
     case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
+      addLine("Enjoy!!!", "color2", 80);
       setTimeout(function() {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
@@ -117,7 +116,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:forrest@fkcodes.com">forrest@fkcodes.com</a>...', "color2", 80);
+      addLine('Opening mailto:<a href="mailto:rajveerkhanduja74@gmail.com">rajveerkhanduja74@gmail.com</a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
@@ -130,13 +129,9 @@ function commander(cmd) {
       loopLines(banner, "", 80);
       break;
     // socials
-    case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
-    case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
-      newTab(twitter);
+    case "x":
+      addLine("Opening X...", "color2", 0);
+      newTab(x);
       break;
     case "linkedin":
       addLine("Opening LinkedIn...", "color2", 0);
@@ -149,6 +144,10 @@ function commander(cmd) {
     case "github":
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
+      break;
+    case "leetcode":
+      addLine("Opening LeetCode...", "color2", 0);
+      newTab(leetcode);
       break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);

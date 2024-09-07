@@ -1,14 +1,14 @@
-var youtube = "https://www.youtube.com/fknight/";
-var twitter = "https://www.twitter.com/forrestpknight/";
-var password = "fkcodes";
-var linkedin = "https://www.linkedin.com/in/forrestpknight/";
-var instagram = "https://www.instagram.com/forrestpknight/";
-var github = "https://github.com/forrestknight/";
-var email = 'mailto:forrest@fkcodes.com';
+var x = "https://x.com/rajee_khanduja/";
+var password = "rajveerkhanduja";
+var linkedin = "https://www.linkedin.com/in/rajveer-singh-khanduja/";
+var instagram = "https://www.instagram.com/rajveerskhandujaa/";
+var github = "https://github.com/rajveerkhanduja/";
+var leetcode = "https://leetcode.com/u/rajveerkhanduja74/";
+var email = 'mailto:rajveerkhanduja74@gmail.com';
 
 whois = [
   "<br>",
-  "Hey, I'm Forrest!👋",
+  "Hey, I'm Rajveer Singh Khanduja!👋",
   "I'm a software engineer and content creator, who builds engaging websites like this one",
   "and makes YouTube videos about computer science & software engineering.",
   "After graduating with a Bachelor's in Computer Science, I worked professionally",
@@ -25,61 +25,59 @@ whois = [
 
 whoami = [
   "<br>",
-  "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
+  "A random visitor, would love to connect!!!",
   "<br>"
 ];
 
 social = [
   "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/fknight' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/forrestpknight' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/forrestpknight' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/forrestpknight' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
+  'github         <a href="' + github + '" target="_blank">github/rajveerkhanduja' + "</a>",
+  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/rajveer-singh-khanduja' + "</a>",
+  'leetcode       <a href="' + leetcode + '" target="_blank">leetcode/rajveerkhanduja74' + '</a>',
+  'instagram      <a href="' + instagram + '" target="_blank">instagram/rajveerskhandujaa' + '</a>',
+  'x              <a href="' + x + '" target="_blank">x/rajee_khanduja' + '</a>',
   "<br>"
 ];
 
 secret = [
   "<br>",
-  '<span class="command">sudo</span>           Only use if you\'re admin',
+  '<span class="command">sudo</span>           ',
   "<br>"
 ];
 
 projects = [
   "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
+  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/rajveer-singh-khanduja' + "</a>",
+  'github         <a href="' + github + '" target="_blank">github/rajveerkhanduja' + "</a>",
+  'x              <a href="' + x + '" target="_blank">x/rajee_khanduja' + '</a>',
+  'instagram      <a href="' + instagram + '" target="_blank">instagram/rajveerskhandujaa' + '</a>',
   "<br>"
 ];
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
+  '<span class="command">whois</span>          Who is Rajveer?',
   '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">video</span>          View YouTube videos',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           You obviously already know what this does',
-  '<span class="command">email</span>          Do not email me',
+  '<span class="command">email</span>          Do email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
   "<br>",
 ];
 
 banner = [
-  '<span class="index">ForrestKnight (FK) Not A Corporation. All knights reserved.</span>',
-  "         ___   ____",
-  "       /' --;^/ ,-_\\     \\ | /       ",
-  "      / / --o\\ o-\\ \\\\   --(_)--   ",
-  "     /-/-/|o|-|\\-\\\\|\\\\   / | \\   ______                          __     __ __       _       __    __   ",
-  "      '`  ` |-|   `` '          / ____/___  _____________  _____/ /_   / //_/____  (_)___ _/ /_  / /_ ",
-  "            |-|                / /_  / __ \\/ ___/ ___/ _ \\/ ___/ __/  / ,<  / __ \\/ / __ `/ __ \\/ __/ ",
-  "            |-|O              / __/ / /_/ / /  / /  /  __(__  ) /_   / /| |/ / / / / /_/ / / / / /_  ",
-  "            |-(\\,__          /_/    \\____/_/  /_/   \\___/____/\\__/  /_/ |_/_/ /_/_/\\__, /_/ /_/\\__/ ",
-  "         ...|-|\\--,\\_....                                                         /____/    © 2022",
-  "      ,;;;;;;;;;;;;;;;;;;;;;;;;,.   ",
-  "~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+  '<span class="index">rajveerkhanduja. All rights reserved.</span>',
+  "  _________             __                              _________.__               .__       ____  __.__                       .___        __        ",
+  "  \\______  \\_____      |__|__  __ ____   ___________   /   _____/|__| ____    ____ |  |__   |    |/ _|  |__ _____    ____    __| _/_ __   |__|____   ",
+  "  |       _/\\__  \\     |  \\  \\/ // __ \\_/ __ \\_  __ \\  \\_____  \\ |  |/    \\  / ___\\|  |  \\  |      < |  |  \\ \\__ \\  /    \\  / __ |  |  \\  |  \\__  \\  ",
+  "  |    |   \\ / __ \\_   |  |\\   /\\  ___/\\  ___/|  | \\/  /        \\|  |   |  \\/ /_/  >   Y  \\ |    |  \\|   Y  \\/ __ \\|   |  \\/ /_/ |  |  /  |  |/ __ \\_",
+  "  |____|_  /(____  /\\__|  | \\_/  \\___  >\\___  >__|    /_______  /|__|___|  /\\___  /|___|  / |____|__ \\___|  (____  /___|  /\\____ |____/\\__|  (____  /",
+  "         \\/      \\/\\______|          \\/     \\/                \\/         \\//_____/      \\/          \\/    \\/     \\/     \\/      \\/    \\______|    \\/ ",
+  "                                                                                                                                               © 2024",
   '<span class="color2">Welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
