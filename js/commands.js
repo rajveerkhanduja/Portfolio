@@ -9,17 +9,15 @@ var email = 'mailto:rajveerkhanduja74@gmail.com';
 whois = [
   "<br>",
   "Hey, I'm Rajveer Singh Khanduja!👋",
-  "I'm a software engineer and content creator, who builds engaging websites like this one",
-  "and makes YouTube videos about computer science & software engineering.",
-  "After graduating with a Bachelor's in Computer Science, I worked professionally",
-  "as a software engineer building enterprise web applications for Fortune 500 companies.",
-  "While doing all of that, I documented my coding journey on YouTube - trying to enlighten",
-  "the next generation of developers and help them navigate the crazy world that is software", "engineering & computer science.",
-  "Before I knew it, that online presence took on a life of its own, to the point where I knew",
-  "I needed to make the jump from software engineering to full time content creation - strike while",
-  "the iron's hot.",
-  "Now, I make videos about software engineering and computer science, building anything my heart desires,",
-  "like this terminal website.",
+  "I'm an upcoming software engineer who loves talking about computer science",
+  "and and diving into countless hackathons.",
+  "Currently an undergraduate at SRM University - AP,",
+  "I've also worked as research intern, where I built QueryMate, an AI mock interviewer",
+  "designed to help students nail their technical interviews based on experience level.",
+  "I document my adventures on X (formerly Twitter),",
+  "Oh, and by the way, if my code ever compiles without errors on the first try,",
+  "I immediately check if I've entered an alternate universe!",
+  "Life is Enjoy!",
   "<br>"
 ];
 
